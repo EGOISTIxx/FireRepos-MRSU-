@@ -5,6 +5,138 @@ $MobileL: 425px;
 $MobileM: 375px;
 $MobileS: 320px;
 
+@media(max-width: 1876px){
+  .brgr {
+    left: 94.4% !important;
+  }
+}
+
+@media(max-width: 1834px){
+  .brgr {
+    left: 94% !important;
+  }
+
+  .fire-img{
+    top: 20% !important;
+  }
+}
+
+@media(max-width: 1691px){
+  .brgr {
+    left: 93.8% !important;
+  }
+
+  .logo-image-wrapper__logo-text{
+    font-size: 55px !important;
+  }
+
+  .image-logo__wrapper{
+    left: 32% !important;
+  }
+
+  .section-contacts {
+    .contact__slogan {
+      height: 10% !important;
+      text-align: center;
+      font-size: 55px !important;
+    }
+  }
+
+  .first-row{
+    .main-text{
+      font-size: 28px !important;
+    }
+  }
+
+  .fire-img{
+    top: 21.5% !important;
+  }
+}
+
+@media(max-width: 1630px){
+  .brgr {
+    left: 93.5% !important;
+  }
+
+  .after-logo-text-wrapper__void{
+    width: 59.5% !important;
+  }
+
+  .logo-image-wrapper__logo-text{
+    font-size: 50px !important;
+  }
+
+  .fire-img{
+    top: 22% !important;
+  }
+
+  .section-contacts {
+    .contact__slogan {
+      height: 10% !important;
+      text-align: center;
+      font-size: 50px !important;
+    }
+  }
+}
+
+@media(max-width: 1556px){
+  .brgr {
+    left: 93.3% !important;
+  }
+
+  .first-row{
+    .main-text{
+      font-size: 26px !important;
+    }
+  }
+
+  .text-person__feedbacks {
+    span {
+    font-size: 23px !important;
+    }
+  }
+
+  .fire-img{
+    top: 24% !important;
+  }
+}
+
+@media(max-width: 1510px){
+  .brgr {
+    left: 93.1% !important;
+  }
+
+  .section-unlist-serviceslist__wrapper{
+    li{
+      &:hover{
+        font-size: 55px !important;
+      }
+    }
+  }
+
+  .first-row{
+    .main-text{
+      font-size: 24px !important;
+    }
+  }
+}
+
+@media(max-width: 1470px){
+  .brgr{
+    left: 92.8% !important;
+  }
+
+  .logo-image-wrapper__logo-text{
+    font-size: 45px !important;
+  }
+
+  .section-contacts .contact__slogan {
+    height: 10% !important;
+    text-align: center;
+    font-size: 45px !important;
+  }
+}
+
 @media(max-width: $LaptopL) {
   .after-logo-text-wrapper__void {
     width: 62.5% !important;
@@ -40,7 +172,7 @@ $MobileS: 320px;
     .contact__slogan {
       height: 10%;
       text-align: center;
-      font-size: 50px !important;
+      font-size: 45px !important;
     }
   }
 
@@ -60,7 +192,7 @@ $MobileS: 320px;
   }
 
   .logo-image-wrapper__logo-text {
-    font-size: 48px !important;
+    font-size: 45px !important;
   }
 
   .third-row {
@@ -84,6 +216,199 @@ $MobileS: 320px;
       height: 50% !important;
     }
   }
+}
+
+@media(max-width: 1386px){
+  .brgr {
+    left: 92.4% !important;
+  }
+
+  .logo-image-wrapper__logo-text {
+    font-size: 45px !important;
+  }
+
+  .section-unlist-serviceslist__wrapper{
+    li{
+      &:hover{
+        font-size: 50px !important;
+      }
+    }
+  }
+
+  .text-person__feedbacks span {
+    font-size: 20px !important;
+  }
+
+  .header__list-link-nav{
+    span{
+      font-size: 28px !important;
+    }
+  }
+
+  .inpt{
+    font-size: 28px !important;
+  }
+
+  .button-info-portfolio{
+    span{
+      font-size: 27px !important;
+    }
+  }
+}
+
+@media(max-width: 1336px){
+  .brgr {
+    left: 92.2% !important;
+  }
+
+  .header__list-link-nav{
+    span{
+      font-size: 26px !important;
+    }
+  }
+
+  .inpt{
+    font-size: 26px !important;
+  }
+
+  .first-row .main-text {
+    font-size: 24px !important;
+  }
+
+  .third-row span {
+    font-size: 12px !important;
+  }
+
+  .footer .fire-img {
+    top: 26% !important;
+    position: absolute;
+  }
+}
+
+@media(max-width: 1300px){
+  .brgr {
+    left: 91.9% !important;
+  }
+
+  .image-logo__wrapper {
+    left: 27% !important;
+  }
+
+  .logo-image-wrapper__logo-text {
+    font-size: 40px !important;
+  }
+
+  .selection1{
+    .main-image-services__wrapper{
+      width: 520px !important;
+      height: 400px !important;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .selection2{
+    .main-image-services__wrapper{
+      width: 520px !important;
+      height: 300px !important;
+      background-position: right;
+      background-size: cover;
+    }
+  }
+
+  .section-contacts .firehand-img {
+    height: 40% !important;
+  }
+}
+
+@media(max-width: 1250px){
+  .after-logo-text-wrapper__void {
+    width: 66.5% !important;
+  }
+
+  .brgr {
+    left: 91.6% !important;
+  }
+
+  .section-unlist-serviceslist__wrapper{
+    li{
+      &:hover{
+        font-size: 45px !important;
+      }
+    }
+  }
+
+  .first-row {
+    width: 101% !important;
+  }
+
+  .third-row{
+    span{
+      width: 94% !important;
+    }
+  }
+
+  .section-contacts__contact {
+    font-size: 25px !important;
+  }
+
+  .logo-image-wrapper__logo-text {
+    font-size: 37px !important;
+  }
+
+  .section-contacts .contact__slogan {
+    height: 10%;
+    text-align: center;
+    font-size: 37px !important;
+  }
+
+  .section-contacts .firehand-img {
+    height: 37% !important;
+  }
+
+  .footer .fire-img {
+    top: 27% !important;
+    position: absolute;
+  }
+}
+
+@media(max-width: 1180px){
+
+  .header__list-link-nav span {
+    font-size: 23px !important;
+  }
+
+  .header-list-section{
+    margin-block-start: 0.5em !important;
+  }
+
+  .brgr {
+    left: 91.1% !important;
+  }
+
+  .ladder {
+    width: 300px !important;
+    height: 300px !important;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section-services{
+    height: calc(100% - 86.7%) !important;
+  }
+
+  .slider-info__wrapper{
+    height: 50% !important;
+  }
+
+  .first-row .main-text {
+    font-size: 22px !important;
+  }
+
+  .button-info-portfolio span {
+    font-size: 25px !important;
+  }
+  
 }
 
 @media(max-width: $Laptop) {
@@ -317,10 +642,147 @@ $MobileS: 320px;
   .section-feedbacks-contact{
     flex-direction: column;
   }
+
+  .paginator__slider{
+    font-size: 11px !important;
+  }
+
+  .section-feedbacks-contact {
+    .section-feedbacks-contactus__wrapper {
+      width: 100% !important;
+    }
+  }
+
+  .person-image__feedbacks{
+    width: 50px !important;
+    height: 50px !important;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section-feedbacks-contact {
+    .section-name {
+      font-size: 50px !important;
+    }
+  }
+
+  .section-feedbacks-contact {
+    height: calc(100% - 82.1167%) !important;
+  }
+
+  .contact-img{
+    display: none;
+  }
+
+  .feedback-form__submit{
+    font-size: 20px !important;
+  }
+
+  .section-contacts__title{
+    font-size: 50px !important;
+    height: 10% !important;
+  }
+
+  .section-contacts__contact {
+    font-size: 20px !important;
+  }
+
+  .section-contacts .firehand-img {
+    height: 30% !important;
+  }
+
+  .text-person__feedbacks {
+    span {
+      font-size: 21px !important;
+    }
+  }
+  
+  .author-text__feedbacks {
+    span {
+    font-size: 21px !important;
+    }
+  }
+
+  .section-contacts .contact__slogan {
+    height: 10%;
+    text-align: center;
+    font-size: 34px !important;
+  }
 }
 
 @media(max-width: $Tablet){
   .after-logo-text-wrapper__void {
     width: 66.5% !important;
   }
+
+  .brgr {
+    left: 90% !important;
+  }
+
+  .header__sign-up {
+    left: 0!important;
+    width: 100%!important;
+  }
+
+  .header__sign-in {
+    width: 100%!important;
+    left: 0!important;
+  }
+
+  .header__list-link-nav span {
+    font-size: 16px !important;
+ }
+
+ .logo-image-wrapper__burger-menu {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.logo-image-wrapper__burger-menu span {
+  width: 38px!important;
+}
+
+.image-logo__wrapper {
+  left: 13% !important;
+}
+
+.section-unlist-serviceslist__wrapper{
+  li{
+    &:hover{
+      font-size: 27px !important;
+    }
+  }
+}
+
+.first-row .main-text {
+  font-size: 15px !important;
+}
+
+.button-info-portfolio span {
+  font-size: 23px !important;
+}
+
+.section-contacts__contact {
+  font-size: 16px !important;
+}
+
+.section-contacts .contact__slogan {
+  font-size: 26px !important;
+}
+
+.contact__linst-link {
+  font-size: 10px!important;
+}
+
+.section-contacts .contact__links {
+  height: 10%;
+}
+
+ul {
+  padding-inline-start: 0px !important;
+}
+
+.logo-image-wrapper__logo-text {
+  font-size: 25px !important;
+}
 }
