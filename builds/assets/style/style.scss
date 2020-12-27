@@ -1,54 +1,65 @@
 @font-face {
-  font-family: 'PlayfairDisplaySC';
-  src: url('../fonts/ofont.ru_Playfair Display SC.eot');
-  src: local('☺'), url('../fonts/ofont.ru_Playfair Display SC.woff') format('woff'), url('../fonts/ofont.ru_Playfair Display SC.ttf') format('truetype'), url('../fonts/ofont.ru_Playfair Display SC.svg') format('svg');
+  font-family: "PlayfairDisplaySC";
+  src: url("../fonts/ofont.ru_Playfair Display SC.eot");
+  src: local("☺"),
+    url("../fonts/ofont.ru_Playfair Display SC.woff") format("woff"),
+    url("../fonts/ofont.ru_Playfair Display SC.ttf") format("truetype"),
+    url("../fonts/ofont.ru_Playfair Display SC.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
 
 @font-face {
-  font-family: 'UbuntuLight';
-  src: url('../fonts/ofont.ru_Ubuntu Light.eot');
-  src: local('☺'), url('../fonts/ofont.ru_Ubuntu Light.woff') format('woff'), url('../fonts/ofont.ru_Ubuntu Light.ttf') format('truetype'), url('../fonts/ofont.ru_Ubuntu Light.svg') format('svg');
+  font-family: "UbuntuLight";
+  src: url("../fonts/ofont.ru_Ubuntu Light.eot");
+  src: local("☺"), url("../fonts/ofont.ru_Ubuntu Light.woff") format("woff"),
+    url("../fonts/ofont.ru_Ubuntu Light.ttf") format("truetype"),
+    url("../fonts/ofont.ru_Ubuntu Light.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/ofont.ru_Ubuntu.eot');
-  src: local('☺'), url('../fonts/ofont.ru_Ubuntu.woff') format('woff'), url('../fonts/ofont.ru_Ubuntu.ttf') format('truetype'), url('../fonts/ofont.ru_Ubuntu.svg') format('svg');
+  font-family: "Ubuntu";
+  src: url("../fonts/ofont.ru_Ubuntu.eot");
+  src: local("☺"), url("../fonts/ofont.ru_Ubuntu.woff") format("woff"),
+    url("../fonts/ofont.ru_Ubuntu.ttf") format("truetype"),
+    url("../fonts/ofont.ru_Ubuntu.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 @font-face {
-  font-family: 'Ubuntu Medium';
-  src: url('../fonts/Ubuntu Medium.eot');
-  src: local('☺'), url('../fonts/Ubuntu Medium.woff') format('woff'), url('../fonts/Ubuntu Medium.ttf') format('truetype'), url('../fonts/Ubuntu Medium.svg') format('svg');
+  font-family: "Ubuntu Medium";
+  src: url("../fonts/Ubuntu Medium.eot");
+  src: local("☺"), url("../fonts/Ubuntu Medium.woff") format("woff"),
+    url("../fonts/Ubuntu Medium.ttf") format("truetype"),
+    url("../fonts/Ubuntu Medium.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap");
 
 @font-face {
-  font-family: 'UbuntuMediumItalic';
-  src: url('../fonts/Ubuntu-MediumItalic.eot');
-  src: local('☺'), url('../fonts/Ubuntu-MediumItalic.woff') format('woff'), url('../fonts/Ubuntu-MediumItalic.ttf') format('truetype'), url('../fonts/Ubuntu-MediumItalic.svg') format('svg');
+  font-family: "UbuntuMediumItalic";
+  src: url("../fonts/Ubuntu-MediumItalic.eot");
+  src: local("☺"), url("../fonts/Ubuntu-MediumItalic.woff") format("woff"),
+    url("../fonts/Ubuntu-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Ubuntu-MediumItalic.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap");
 
 html,
 body {
@@ -78,7 +89,7 @@ body {
     text-align: center;
 
     .header-wrapper__logo-text {
-      font-family: 'Playfair Display SC', serif;
+      font-family: "Playfair Display SC", serif;
       font-size: 60px;
       color: #b69b67;
       text-transform: uppercase;
@@ -101,7 +112,7 @@ body {
         text-align: start;
         width: 43.5%;
         font-size: 30px;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: "Ubuntu", sans-serif;
         font-weight: 100;
         font-style: normal;
         letter-spacing: normal;
@@ -114,7 +125,7 @@ body {
     .text-logo-wrapper {
       width: 100%;
       text-align: center;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       margin-bottom: 50px;
 
       .logo-image-wrapper__logo-text {
@@ -127,7 +138,11 @@ body {
         letter-spacing: normal;
         line-height: normal;
         color: #636363;
-        background: radial-gradient(circle closest-corner at 50% 50%, #c7a773, #373737);
+        background: radial-gradient(
+          circle closest-corner at 50% 50%,
+          #c7a773,
+          #373737
+        );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -135,7 +150,7 @@ body {
 
     .logo-image-wrapper__logo-icon {
       width: 100%;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -190,7 +205,6 @@ body {
           justify-content: center;
           transition: 0.3s linear;
 
-
           span {
             width: 52px;
             height: 2px;
@@ -243,7 +257,7 @@ body {
         .header__menu-title {
           width: 100%;
           color: #b4b4b4;
-          font-family: 'Playfair Display SC', serif;
+          font-family: "Playfair Display SC", serif;
           font-size: 60px;
           font-weight: 700;
           text-transform: uppercase;
@@ -272,7 +286,7 @@ body {
               .header-list-section {
                 list-style-type: none;
                 color: #b4b4b4;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: "Ubuntu", sans-serif;
                 font-size: 30px;
                 text-transform: uppercase;
                 text-align: left;
@@ -282,20 +296,19 @@ body {
                 align-items: flex-start;
                 padding-inline-start: 0px;
                 margin-block-start: 1em;
-                transition: .3s linear;
+                transition: 0.3s linear;
 
                 .header__list-link-nav {
                   margin-bottom: 30px;
                   font-weight: 300;
-                  transition: .1s linear;
+                  transition: 0.1s linear;
                   cursor: pointer;
-
 
                   &:hover span {
                     color: #b69b67;
                     font-weight: 400;
                     border-top: 1px solid #b69b67;
-                    transition: .1s linear;
+                    transition: 0.1s linear;
                   }
                 }
 
@@ -333,7 +346,7 @@ body {
                 padding-left: 0;
                 padding-bottom: 0;
                 font-size: 30px;
-                font-family: 'Ubuntu', serif;
+                font-family: "Ubuntu", serif;
                 color: #636363;
                 font-weight: 300;
                 text-transform: uppercase;
@@ -378,7 +391,7 @@ body {
         transition: 1s ease-in-out;
 
         .header__modal-title-text {
-          font-family: 'Playfair Display SC', serif;
+          font-family: "Playfair Display SC", serif;
           font-size: 60px;
           font-weight: 400;
           color: #b4b4b4;
@@ -391,7 +404,7 @@ body {
         }
 
         .header__using-text {
-          font-family: 'Ubuntu', sans-serif;
+          font-family: "Ubuntu", sans-serif;
           color: #b4b4b4;
           font-size: 30px;
           text-transform: uppercase;
@@ -414,45 +427,45 @@ body {
             height: 50%;
             width: 25%;
             font-size: 30px;
-            font-family: 'Ubuntu', sans-serif;
+            font-family: "Ubuntu", sans-serif;
             font-weight: 300;
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            transition: .3s ease-in-out;
+            transition: 0.3s ease-in-out;
           }
 
           .facebook {
-            color: #3B5998;
-            border: 1px solid #3B5998;
+            color: #3b5998;
+            border: 1px solid #3b5998;
 
             &:hover {
-              background: #3B5998;
+              background: #3b5998;
               color: #303030;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
             }
           }
 
           .google {
-            color: #DD4B39;
-            border: 1px solid #DD4B39;
+            color: #dd4b39;
+            border: 1px solid #dd4b39;
 
             &:hover {
-              background: #DD4B39;
+              background: #dd4b39;
               color: #303030;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
             }
           }
 
           .twitter {
-            color: #1DA1F2;
-            border: 1px solid #1DA1F2;
+            color: #1da1f2;
+            border: 1px solid #1da1f2;
 
             &:hover {
-              background: #1DA1F2;
+              background: #1da1f2;
               color: #303030;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
             }
           }
         }
@@ -461,7 +474,7 @@ body {
           width: 100%;
           height: 10%;
           font-size: 30px;
-          font-family: 'Ubuntu', sans-serif;
+          font-family: "Ubuntu", sans-serif;
           display: flex;
           justify-content: center;
           align-items: flex-end;
@@ -494,7 +507,7 @@ body {
               width: 80%;
               height: 15%;
               font-size: 30px;
-              font-family: 'Ubuntu', serif;
+              font-family: "Ubuntu", serif;
               color: #636363;
               font-weight: 300;
               padding: 15px;
@@ -512,7 +525,7 @@ body {
               .password {
                 border: 1px solid #b4b4bb;
                 font-size: 30px;
-                font-family: 'Ubuntu', serif;
+                font-family: "Ubuntu", serif;
                 color: #636363;
                 font-weight: 300;
                 padding: 15px;
@@ -530,14 +543,14 @@ body {
                   text-transform: uppercase;
                   font-size: 30px;
                   color: #303030;
-                  font-family: 'Ubuntu', sans-serif;
+                  font-family: "Ubuntu", sans-serif;
                   font-weight: 300;
-                  transition: .3s ease-in-out;
+                  transition: 0.3s ease-in-out;
                 }
 
                 &:hover span {
                   color: #8f7c5a;
-                  transition: .3s ease-in-out;
+                  transition: 0.3s ease-in-out;
                 }
               }
             }
@@ -571,7 +584,7 @@ body {
         transition: 1s ease-in-out;
 
         .header__modal-title-text {
-          font-family: 'Playfair Display SC', serif;
+          font-family: "Playfair Display SC", serif;
           font-size: 60px;
           font-weight: 400;
           color: #b4b4b4;
@@ -584,7 +597,7 @@ body {
         }
 
         .header__using-text {
-          font-family: 'Ubuntu', sans-serif;
+          font-family: "Ubuntu", sans-serif;
           color: #b4b4b4;
           font-size: 30px;
           text-transform: uppercase;
@@ -607,45 +620,45 @@ body {
             height: 50%;
             width: 25%;
             font-size: 30px;
-            font-family: 'Ubuntu', sans-serif;
+            font-family: "Ubuntu", sans-serif;
             font-weight: 300;
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            transition: .3s ease-in-out;
+            transition: 0.3s ease-in-out;
           }
 
           .facebook {
-            color: #3B5998;
-            border: 1px solid #3B5998;
+            color: #3b5998;
+            border: 1px solid #3b5998;
 
             &:hover {
-              background: #3B5998;
+              background: #3b5998;
               color: #303030;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
             }
           }
 
           .google {
-            color: #DD4B39;
-            border: 1px solid #DD4B39;
+            color: #dd4b39;
+            border: 1px solid #dd4b39;
 
             &:hover {
-              background: #DD4B39;
+              background: #dd4b39;
               color: #303030;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
             }
           }
 
           .twitter {
-            color: #1DA1F2;
-            border: 1px solid #1DA1F2;
+            color: #1da1f2;
+            border: 1px solid #1da1f2;
 
             &:hover {
-              background: #1DA1F2;
+              background: #1da1f2;
               color: #303030;
-              transition: .3s ease-in-out;
+              transition: 0.3s ease-in-out;
             }
           }
         }
@@ -654,7 +667,7 @@ body {
           width: 100%;
           height: 10%;
           font-size: 30px;
-          font-family: 'Ubuntu', sans-serif;
+          font-family: "Ubuntu", sans-serif;
           display: flex;
           justify-content: center;
           align-items: flex-end;
@@ -687,7 +700,7 @@ body {
               width: 80%;
               height: 15%;
               font-size: 30px;
-              font-family: 'Ubuntu', serif;
+              font-family: "Ubuntu", serif;
               color: #636363;
               font-weight: 300;
               padding: 15px;
@@ -704,14 +717,14 @@ body {
                 text-transform: uppercase;
                 font-size: 30px;
                 color: #303030;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: "Ubuntu", sans-serif;
                 font-weight: 300;
-                transition: .3s ease-in-out;
+                transition: 0.3s ease-in-out;
               }
 
               &:hover span {
                 color: #8f7c5a;
-                transition: .3s ease-in-out;
+                transition: 0.3s ease-in-out;
               }
             }
           }
@@ -754,7 +767,7 @@ body {
       width: 100%;
       font-size: 60px;
       text-align: center;
-      font-family: 'Playfair Display SC', serif;
+      font-family: "Playfair Display SC", serif;
       color: #b4b4b4;
       height: 15%;
     }
@@ -777,7 +790,7 @@ body {
           li {
             display: block;
             font-size: 30px;
-            font-family: 'Ubuntu', sans-serif;
+            font-family: "Ubuntu", sans-serif;
             font-weight: 100;
             font-style: normal;
             letter-spacing: normal;
@@ -830,7 +843,7 @@ body {
             .main-text-services__wrapper {
               width: 60%;
               color: #b4b4b4;
-              font-family: 'Ubuntu', sans-serif;
+              font-family: "Ubuntu", sans-serif;
               font-size: 20px;
               text-align: justify;
               font-weight: 100;
@@ -863,13 +876,13 @@ body {
             // display: none;
             opacity: 0;
             position: absolute;
-            transition: .3s ease-in-out;
+            transition: 0.3s ease-in-out;
 
             .main-text-services__wrapper {
               margin-top: 10%;
               width: 60%;
               color: #b4b4b4;
-              font-family: 'Ubuntu', sans-serif;
+              font-family: "Ubuntu", sans-serif;
               font-size: 20px;
               text-align: justify;
               font-weight: 100;
@@ -894,8 +907,6 @@ body {
               background-repeat: no-repeat;
               background-position: right center;
             }
-
-
           }
 
           .selection3 {
@@ -916,7 +927,7 @@ body {
             .main-text-services__wrapper {
               width: 60%;
               color: #b4b4b4;
-              font-family: 'Ubuntu', sans-serif;
+              font-family: "Ubuntu", sans-serif;
               font-size: 20px;
               text-align: justify;
               font-weight: 100;
@@ -953,7 +964,7 @@ body {
             .main-text-services__wrapper {
               width: 60%;
               color: #b4b4b4;
-              font-family: 'Ubuntu', sans-serif;
+              font-family: "Ubuntu", sans-serif;
               font-size: 20px;
               text-align: justify;
               font-weight: 100;
@@ -974,8 +985,6 @@ body {
         }
       }
     }
-
-
   }
 }
 
@@ -998,7 +1007,7 @@ body {
       height: 12%;
       font-size: 60px;
       text-align: center;
-      font-family: 'Playfair Display SC', serif;
+      font-family: "Playfair Display SC", serif;
       color: #b4b4b4;
     }
 
@@ -1034,12 +1043,12 @@ body {
           pointer-events: none;
           order: 2;
           z-index: 1;
-          transition: .4s ease-in-out;
+          transition: 0.4s ease-in-out;
           box-sizing: border-box;
           overflow: hidden;
           white-space: normal;
           min-height: 59px;
-          font-family: 'Ubuntu', sans-serif;
+          font-family: "Ubuntu", sans-serif;
           font-size: 30px;
           color: #b4b4b4;
           font-weight: 300;
@@ -1070,14 +1079,12 @@ body {
           }
         }
 
-
-
         input {
           opacity: 0;
           position: absolute;
           left: -99999px;
 
-          &:checked+label {
+          &:checked + label {
             order: 1;
             z-index: 2;
             background: #303030;
@@ -1087,8 +1094,8 @@ body {
             position: relative;
           }
 
-          &:checked+label:after {
-            content: '';
+          &:checked + label:after {
+            content: "";
             width: 0;
             height: 0;
             border-left: 5px solid transparent;
@@ -1101,12 +1108,12 @@ body {
             z-index: 3;
           }
 
-          &:checked+label:before {
+          &:checked + label:before {
             position: absolute;
             right: 0;
             height: 59px;
             width: 59px;
-            content: '';
+            content: "";
           }
         }
 
@@ -1134,11 +1141,11 @@ body {
         flex-direction: column;
         justify-content: space-between;
 
-        .first-item{
+        .first-item {
           background-image: url(../images/item1_pic.png);
         }
 
-        .second-item{
+        .second-item {
           background-image: url(../images/item2_pic.png);
         }
       }
@@ -1150,11 +1157,11 @@ body {
         flex-direction: column;
         justify-content: space-between;
 
-        .third-item{
+        .third-item {
           background-image: url(../images/item3_pic.png);
         }
 
-        .fourth-item{
+        .fourth-item {
           background-image: url(../images/item4_pic.png);
         }
       }
@@ -1174,7 +1181,7 @@ body {
           height: 100%;
           position: absolute;
           opacity: 1;
-          transition: .5s linear;
+          transition: 0.5s linear;
 
           .services-item__wrapper {
             width: 100%;
@@ -1182,7 +1189,6 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-
 
             .first-section-void__wrapper {
               height: 100%;
@@ -1200,10 +1206,9 @@ body {
                 }
 
                 .void-text-line {
-                  content: '';
+                  content: "";
                   height: 100%;
                   width: 30%;
-                  
                 }
               }
 
@@ -1240,13 +1245,12 @@ body {
                   height: 100%;
                   width: 90%;
                   color: #303030;
-                  font-family: 'Ubuntu', sans-serif;
+                  font-family: "Ubuntu", sans-serif;
                   font-weight: 400;
                   text-align: left;
                   text-transform: uppercase;
                   font-size: 30px;
                   border-bottom: 1px solid #303030;
-
                 }
 
                 .void-text {
@@ -1269,7 +1273,7 @@ body {
                 align-items: center;
 
                 span {
-                  font-family: 'Ubuntu', sans-serif;
+                  font-family: "Ubuntu", sans-serif;
                   width: 90%;
                   color: #303030;
                   font-size: 15px;
@@ -1284,7 +1288,7 @@ body {
                 justify-content: center;
 
                 span {
-                  font-family: 'Ubuntu', sans-serif;
+                  font-family: "Ubuntu", sans-serif;
                   font-style: italic;
                   font-weight: 300;
                   width: 90%;
@@ -1300,7 +1304,7 @@ body {
           width: 100%;
           position: relative;
           opacity: 0;
-          transition: .5s linear;
+          transition: 0.5s linear;
 
           .portfolio-flex__wrapper {
             position: absolute;
@@ -1325,7 +1329,7 @@ body {
                 font-weight: 400;
                 line-height: 20px;
                 text-transform: uppercase;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: "Ubuntu", sans-serif;
               }
             }
           }
@@ -1334,12 +1338,12 @@ body {
         &:hover {
           .block-portfolio {
             opacity: 0;
-            transition: .5s linear;
+            transition: 0.5s linear;
           }
 
           .btn-portfolio__block {
             opacity: 1;
-            transition: .5s linear;
+            transition: 0.5s linear;
           }
         }
       }
@@ -1354,7 +1358,7 @@ body {
       color: #b4b4b4;
       font-size: 15px;
       font-weight: 500;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       line-height: 20px;
       word-spacing: 10px;
       padding: 0;
@@ -1439,7 +1443,7 @@ body {
         .text-person__feedbacks {
           width: 90%;
           text-align: left;
-          font-family: 'Ubuntu', sans-serif;
+          font-family: "Ubuntu", sans-serif;
 
           span {
             font-size: 25px;
@@ -1453,7 +1457,7 @@ body {
         width: 100%;
         border-top: 1px solid #b69b67;
         text-align: right;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: "Ubuntu", sans-serif;
 
         span {
           font-size: 25px;
@@ -1475,16 +1479,16 @@ body {
         font-size: 15px;
         text-align: center;
         color: #b4b4b4;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: "Ubuntu", sans-serif;
         text-transform: uppercase;
         font-weight: 400;
         word-spacing: 0;
-        transition: .3s linear;
+        transition: 0.3s linear;
         cursor: pointer;
 
         &:hover {
           color: #b69b67;
-          transition: .3s linear;
+          transition: 0.3s linear;
         }
       }
     }
@@ -1495,7 +1499,7 @@ body {
       align-items: center;
       margin-left: 15%;
       margin-right: 17%;
-      font-family: 'Ubuntu', serif;
+      font-family: "Ubuntu", serif;
       z-index: 2;
 
       .feedback-form__name,
@@ -1518,18 +1522,18 @@ body {
 
       .feedback-form__submit {
         padding: 15px 50px;
-        background-color: #B69B67;
-        border: 1px solid #B69B67;
+        background-color: #b69b67;
+        border: 1px solid #b69b67;
         outline: none;
         font-size: 25px;
         color: #454545;
-        transition: .3s ease-in-out;
+        transition: 0.3s ease-in-out;
         cursor: pointer;
 
         &:hover {
           background-color: #454545;
-          color: #B69B67;
-          transition: .3s ease-in-out;
+          color: #b69b67;
+          transition: 0.3s ease-in-out;
         }
       }
     }
@@ -1547,7 +1551,7 @@ body {
     width: 100%;
     height: 10%;
     text-align: center;
-    font-family: 'Playfair Display SC', sans-serif;
+    font-family: "Playfair Display SC", sans-serif;
     color: #b4b4b4;
     font-size: 60px;
     text-transform: uppercase;
@@ -1568,7 +1572,7 @@ body {
     width: 100%;
     font-size: 60px;
     text-align: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
     color: #b4b4b4;
     height: 15%;
   }
@@ -1584,7 +1588,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       font-weight: 300;
       text-transform: uppercase;
       font-size: 30px;
@@ -1619,7 +1623,7 @@ body {
   .contact__slogan {
     width: 100%;
     height: 5%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 300;
@@ -1627,7 +1631,11 @@ body {
     letter-spacing: normal;
     line-height: normal;
     color: #636363;
-    background: radial-gradient(circle closest-corner at 50% 50%, #c7a773, #373737);
+    background: radial-gradient(
+      circle closest-corner at 50% 50%,
+      #c7a773,
+      #373737
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
@@ -1648,7 +1656,7 @@ body {
       justify-content: space-around;
       text-decoration: none;
       list-style-type: none;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       text-transform: uppercase;
       color: #b4b4b4;
 
@@ -1656,11 +1664,11 @@ body {
         cursor: pointer;
         font-size: 15px;
         font-weight: 300;
-        transition: .3s ease-in-out;
+        transition: 0.3s ease-in-out;
 
         &:hover {
           color: #b69b67;
-          transition: .3s ease-in-out;
+          transition: 0.3s ease-in-out;
         }
       }
     }
@@ -1685,13 +1693,13 @@ body {
 .show {
   //display: block !important;
   opacity: 1 !important;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .hide {
   //display: none !important;
   opacity: 0 !important;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .form-active {
@@ -1705,7 +1713,7 @@ body {
   transition: 1s ease-in-out;
 }
 
-.form-right-slide{
+.form-right-slide {
   transform: translateX(-200%) !important;
   transition: 1s ease-in-out;
 }
